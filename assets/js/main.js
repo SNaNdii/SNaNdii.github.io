@@ -264,13 +264,13 @@ let tech_stacks = [
   {
     tech_name: "Eclipse",
     img_link:
-      "https://spring.io/images/logo-eclipse-02147c535e095dcbf9798552c191e58a.svg",
+      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a72c41bd-3f92-4310-8cb1-ebfeead6b93d/d6d50o-6f093338-5076-4cd7-97eb-7213d7f42b3d.png/v1/fill/w_250,h_250,strp/eclipse_icon_by_flosweb_d6d50o-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjUwIiwicGF0aCI6IlwvZlwvYTcyYzQxYmQtM2Y5Mi00MzEwLThjYjEtZWJmZWVhZDZiOTNkXC9kNmQ1MG8tNmYwOTMzMzgtNTA3Ni00Y2Q3LTk3ZWItNzIxM2Q3ZjQyYjNkLnBuZyIsIndpZHRoIjoiPD0yNTAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.hMttHMyCqgUyqY-p_9zCwjCrHvJnXBlqrFlop5dODR8",
   },
 
   {
     tech_name: "Postman",
     img_link:
-      "https://seeklogo.com/images/P/postman-logo-F43375A2EB-seeklogo.com.png",
+      "https://static.javatpoint.com/tutorial/postman/images/postman-tutorial.png",
   },
 
   {
