@@ -1425,6 +1425,32 @@ img {
   width: 70%;
   height: 100%;
 }
+/*--------------------------------*/
+#tech2 {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 60px 40px;
+  /* border: 1px solid; */
+}
+
+#tech2>div {
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  /* border:1px solid #dcdad0; */
+}
+
+#tech2>div>img {
+  width: 70%;
+  height: 100%;
+}
 
 
 
