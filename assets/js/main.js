@@ -229,7 +229,7 @@ let tech_stacks = [
   },
   {
     tech_name: "Spring_Boot",
-    img_link: "../../assets/img/spring-boot.png",
+    img_link: "./assets/img/spring-boot.png",
   },
   {
     tech_name: "JavaScript",
@@ -282,7 +282,7 @@ let tech_stacks_02 = [
   {
     tech_name: "Intellij Idea",
     img_link:
-      "image.png",
+      "./assets/img/intellij_screenshot.png",
   },
   {
     tech_name: "Eclipse",
@@ -311,17 +311,28 @@ let tech_stacks_02 = [
 let techStackDiv02 = document.getElementById("tech2");
 
 tech_stacks_02.forEach((tech2) => {
-  let comp = document.createElement("div");
-
+  let comp2 = document.createElement("div");
+  // comp2.style.width = "45%"
+  // comp2.style.height = "100%"
+  // comp2.style.margin = "auto"
+  // comp2.style.display = "flex"
+  // comp2.style.gap = "10px"
+  // comp2.style.flexDirection = "column"
+  // comp2.style.justifyContent = "space-between"
+  // comp2.style.alignItems = "center"
+  
   let img = document.createElement("img");
   img.src = tech2.img_link;
   img.alt = tech2.tech_name;
+  // img.style.width = "70%"
+  // img.style.height = "100%"
+
   let name = document.createElement("p");
   name.innerText = tech2.tech_name;
 
-  comp.append(img, name);
+  comp2.append(img, name);
 
-  techStackDiv02.append(comp);
+  techStackDiv02.append(comp2);
 });
 
 // testing js

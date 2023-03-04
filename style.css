@@ -142,25 +142,33 @@ img {
 }
 
 /*==================== REUSABLE CSS CLASSES ====================*/
-.section {
+/* .section {
   padding: 2rem 0 4rem;
-}
+} */
 
-.section__title {
+/* .section__title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
-}
+} */
 
-.section__subtitle {
+/* .section__subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: var(--mb-3);
-}
+} */
 
-.section__title, 
+/* .section__title,
 .section__subtitle {
   text-align: center;
 }
+#section__title2{
+  border: 2px solid red;
+  margin-left: 30%;
+}
+#section__title3{
+  border: 2px solid red;
+  margin-left: 30%;
+} */
 
 /*==================== LAYOUT ====================*/
 .container {
@@ -1402,57 +1410,52 @@ img {
 
 #tech {
   width: 80%;
-  margin: auto;
+  border-radius: 20px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 60px 40px;
-  /* border: 1px solid; */
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 #tech>div {
   width: 50%;
-  height: 100%;
+  height: 80%;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  /* border:1px solid #dcdad0; */
 }
 
-#tech>div>img {
+/* #tech>div>img {
   width: 70%;
   height: 100%;
-}
+} */
 /*--------------------------------*/
 #tech2 {
   width: 80%;
-  margin: auto;
+  border-radius: 20px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 60px 40px;
-  /* border: 1px solid; */
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-
-
 
 #tech2>div {
   width: 50%;
-  height: 100%;
+  height: 80%;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  /* border:1px solid #dcdad0; */
 }
 
-#tech2>div>img {
-  width: 70%;
-  height: 100%;
-}
+
 
 
 
