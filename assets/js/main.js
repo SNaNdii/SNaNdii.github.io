@@ -214,10 +214,6 @@ let tech_stacks = [
       "https://drive.google.com/uc?export=view&id=10aHD66mjf5805u4IG0sHjmUBoHSSrtrZ",
   },
   {
-    tech_name: "Spring_Boot",
-    img_link: "../../assets/img/spring-boot.png",
-  },
-  {
     tech_name: "JDBC",
     img_link:
       "https://drive.google.com/uc?export=view&id=10aHD66mjf5805u4IG0sHjmUBoHSSrtrZ",
@@ -230,6 +226,10 @@ let tech_stacks = [
     tech_name: "Hibernate",
     img_link:
       "https://cdn.freebiesupply.com/logos/large/2x/hibernate-logo-png-transparent.png",
+  },
+  {
+    tech_name: "Spring_Boot",
+    img_link: "../../assets/img/spring-boot.png",
   },
   {
     tech_name: "JavaScript",
@@ -249,18 +249,41 @@ let tech_stacks = [
   {
     tech_name: "BootStrap",
     img_link: "https://avatars.githubusercontent.com/u/2918581?s=280&v=4",
-  },
+  }
+];
+
+let techStackDiv = document.getElementById("tech");
+
+tech_stacks.forEach((tech) => {
+  let comp = document.createElement("div");
+
+  let img = document.createElement("img");
+  img.src = tech.img_link;
+  img.alt = tech.tech_name;
+  let name = document.createElement("p");
+  name.innerText = tech.tech_name;
+
+  comp.append(img, name);
+
+  techStackDiv.append(comp);
+});
+
+//-------Tools----------
+let tech_stacks_02 = [
   {
     tech_name: "GitHub",
     img_link: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
   },
-
   {
     tech_name: "VS_Code",
     img_link:
       "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png",
   },
-
+  {
+    tech_name: "Intellij Idea",
+    img_link:
+      "image.png",
+  },
   {
     tech_name: "Eclipse",
     img_link:
@@ -285,20 +308,20 @@ let tech_stacks = [
   },
 ];
 
-let techStackDiv = document.getElementById("tech");
+let techStackDiv02 = document.getElementById("tech2");
 
-tech_stacks.forEach((tech) => {
+tech_stacks_02.forEach((tech2) => {
   let comp = document.createElement("div");
 
   let img = document.createElement("img");
-  img.src = tech.img_link;
-  img.alt = tech.tech_name;
+  img.src = tech2.img_link;
+  img.alt = tech2.tech_name;
   let name = document.createElement("p");
-  name.innerText = tech.tech_name;
+  name.innerText = tech2.tech_name;
 
   comp.append(img, name);
 
-  techStackDiv.append(comp);
+  techStackDiv02.append(comp);
 });
 
 // testing js
