@@ -279,11 +279,10 @@ let tech_stacks_02 = [
     img_link:
       "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png",
   },
-  {
-    tech_name: "Intellij Idea",
-    img_link:
-      "./assets/img/intellij_screenshot.png",
-  },
+  // {
+  //   tech_name: "Intellij Idea",
+  //   img_link:"./assets/img/intelig.png",
+  // },
   {
     tech_name: "Eclipse",
     img_link:
