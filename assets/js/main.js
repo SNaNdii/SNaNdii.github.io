@@ -279,14 +279,14 @@ let tech_stacks_02 = [
     img_link:
       "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png",
   },
-  // {
-  //   tech_name: "Intellij Idea",
-  //   img_link:"./assets/img/intelig.png",
-  // },
   {
-    tech_name: "Eclipse",
+    tech_name: "Intellij Idea",
+    img_link:"https://static-00.iconduck.com/assets.00/intellij-idea-icon-1024x1014-qi27z6hu.png",
+  },
+  {
+    tech_name: "Spring Tool Suit",
     img_link:
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a72c41bd-3f92-4310-8cb1-ebfeead6b93d/d6d50o-6f093338-5076-4cd7-97eb-7213d7f42b3d.png/v1/fill/w_250,h_250,strp/eclipse_icon_by_flosweb_d6d50o-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjUwIiwicGF0aCI6IlwvZlwvYTcyYzQxYmQtM2Y5Mi00MzEwLThjYjEtZWJmZWVhZDZiOTNkXC9kNmQ1MG8tNmYwOTMzMzgtNTA3Ni00Y2Q3LTk3ZWItNzIxM2Q3ZjQyYjNkLnBuZyIsIndpZHRoIjoiPD0yNTAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.hMttHMyCqgUyqY-p_9zCwjCrHvJnXBlqrFlop5dODR8",
+      "https://1.bp.blogspot.com/-QsZYakuFeZc/YOu85v4QZCI/AAAAAAAAL4o/swwm0PB0uW8Y2-SEYLi--s8byFieqcshACNcBGAsYHQ/w400-h400/spring.webp",
   },
 
   {
@@ -296,15 +296,16 @@ let tech_stacks_02 = [
   },
 
   {
-    tech_name: "Apache_Server",
+    tech_name: "Swagger",
     img_link:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Apache_HTTP_Server_Logo_%282016%29.svg/1024px-Apache_HTTP_Server_Logo_%282016%29.svg.png",
+      "https://codepianist.github.io/images/thumbnails/swagger.png",
   },
 
   {
     tech_name: "Git",
     img_link: "https://www.svgrepo.com/show/364550/gitlab-logo-fill.svg",
   },
+
 ];
 
 let techStackDiv02 = document.getElementById("tech2");
